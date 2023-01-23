@@ -1,0 +1,36 @@
+@media screen and ( max-width:767px ){
+	.header, .footer{
+        width: 300px;
+    }
+    .left{
+        width: 100px;
+    }
+    .r-r{
+        width: 125px;
+    }
+    .c3{
+        width: 75px;
+    }
+    .r2{
+        width: 200px;
+    }
+ 
+}
+@media screen and ( max-width:479px ){
+   .header, .main, .footer, .left, .r-r, .c3, .r2{
+width: 150px;
+   }
+   .main{
+    height: 450px;
+   }
+   .left, .c3{
+    height:100px;
+}
+ .r1, .r-r {
+    display: flex;
+    flex-direction: column;
+}
+.r-r{
+    order:2;
+}
+}
