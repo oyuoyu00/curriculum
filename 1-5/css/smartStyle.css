@@ -1,0 +1,33 @@
+@media screen and ( max-width:479px ){
+
+    .header, .left, .right, .footer{
+    width: 200px;
+}
+.main, .wrap {
+    flex-direction: column;
+}
+.header{
+    height: 160px;
+}
+.wrap{
+    width: 60px;
+    height: 160px;
+    flex-direction: column;
+    margin-left: 0;
+    margin: auto;
+}
+.left{
+    height: 100px;
+}
+.right{
+margin: 0;
+padding: 0;
+}
+.r-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+}
+}
