@@ -10,7 +10,7 @@ background: #141f40;
 }
 .wrap{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 160px;
     height: 60px;
@@ -20,7 +20,11 @@ background: #ffffff;
 .box{
 width: 40px;
 height: 40px;
+margin-right: 10px;
 background: #a9004b;
+}
+.box:last-child{
+    margin-right: 0;
 }
 
 .main{
@@ -38,7 +42,7 @@ width: 250px;
 background:#8c2727;
 }
 .r__box{
-width: 140px;
+width: 150px;
 height: 50px;
 margin-bottom: 10px;
 background: #ff863f;
