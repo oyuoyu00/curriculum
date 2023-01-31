@@ -16,6 +16,13 @@
     margin-left: 0;
     margin: auto;
 }
+.box{
+margin-right: 0;
+margin-bottom: 10px;
+}
+.box:last-child{
+margin-bottom: 0;
+}
 .left{
     height: 100px;
 }
